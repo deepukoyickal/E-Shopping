@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#424742">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#93F3E3">
+
+        <TextView
+            android:id="@+id/seller_product_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Product Name"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            />
+
+        <ImageView
+            android:id="@+id/seller_product_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/seller_product_state"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="2dp"
+            />
+
+        <TextView
+            android:id="@+id/product_seller_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/seller_product_image"
+            android:text="Product Price"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:textColor="@color/colorPrimaryDark"
+            />
+
+        <TextView
+            android:id="@+id/product_seller_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/product_seller_price"
+            android:text="Product Description"
+            android:layout_marginTop="2dp"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:textColor="@color/colorPrimaryDark"
+            />
+        <TextView
+            android:id="@+id/seller_product_state"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/seller_product_name"
+            android:text="Product State"
+            android:layout_marginTop="2dp"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:textColor="@color/colorPrimaryDark"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

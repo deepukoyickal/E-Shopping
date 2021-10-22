@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        android:background="#f2f2f2">
+
+<ImageView
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:id="@+id/order_image"
+    android:layout_marginLeft="5dp"
+    android:layout_alignParentStart="true"/>
+
+        <TextView
+            android:id="@+id/user_order_total_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Price"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:layout_marginTop="45dp"
+            />
+
+<!--        <TextView-->
+<!--            android:id="@+id/user_order_address_city"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Address, City"-->
+<!--            android:textColor="#000000"-->
+<!--            android:textSize="16dp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:layout_below="@+id/user_order_total_price"-->
+<!--            android:gravity="center"-->
+<!--            android:layout_marginTop="15dp"-->
+<!--            />-->
+<!--        <TextView-->
+<!--            android:id="@+id/user_payment_method"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="payment method"-->
+<!--            android:textColor="#000000"-->
+<!--            android:textSize="16dp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:layout_below="@+id/user_order_address_city"-->
+<!--            android:gravity="center"-->
+<!--            android:layout_marginTop="15dp"-->
+<!--            />-->
+
+        <TextView
+            android:id="@+id/user_order_date_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date Time"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/user_order_total_price"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            />
+        <TextView
+            android:id="@+id/user_order_state"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Order State"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/user_order_date_time"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
